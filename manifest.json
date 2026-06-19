@@ -1,0 +1,36 @@
+{
+  "name": "WindTrack",
+  "short_name": "WindTrack",
+  "description": "Gestion financière personnelle & professionnelle — 100% hors-ligne",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FDFBF7",
+  "theme_color": "#3B5BDB",
+  "lang": "fr",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Nouvelle entrée",
+      "short_name": "Entrée",
+      "description": "Enregistrer un revenu rapidement",
+      "url": "./index.html",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
